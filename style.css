@@ -51,8 +51,9 @@ body {
 }
 
 #msg{
-    color:#FCBF49;
+    color:#D62828;
     font-size: 6vmin;
+    font-weight: bold;
 }
 
 .msg-container{
@@ -62,8 +63,12 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 4rem;
+    font-family: "Libre Baskerville", serif;
 }
 
 .hide{
+    display: none;
+}
+#draw-hide{
     display: none;
 }
